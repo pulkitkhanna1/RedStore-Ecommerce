@@ -1,4 +1,18 @@
+/*
 .mt-4:hover{
     transform: translateY(5px);
     transition: transform 0.5s;
+}
+*/
+form {
+    
+    border: 1px solid #c3c3c3;
+   
+    margin-left: 33%;
+    align-content: center;
+    border: 0;
+    margin-bottom: 2%;
+  }
+.loginlogo{
+    margin-bottom: 10px;
 }

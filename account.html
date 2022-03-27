@@ -21,14 +21,43 @@
             <a class="mr-5 hover:text-gray-900" href="Contact_Us.html"> Contact Us</a>
             <a class="mr-5 hover:text-gray-900" href="account.html"> Account</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Cart
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+          <a href="cart.html">
+            <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Cart
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
         </div>
       </header>
-      
+      <div class="flex items-center justify-center min-h-screen bg-gray-100">
+        <div class="px-8 py-6 mt-4 text-left bg-white shadow-lg">
+            <div class="flex justify-center">
+                <img class="loginlogo" src="images/logo.png" alt="logo">
+            </div>
+            <h3 class="text-2xl font-bold text-center">Login to your account</h3>
+            
+                <div class="mt-4">
+                    <div>
+                        <label class="block" for="email">Email<label>
+                                <input type="text" placeholder="Email"
+                                    class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
+                                <span class="text-xs tracking-wide text-red-600">Email field is required </span>
+                    </div>
+                    <div class="mt-4">
+                        <label class="block">Password<label>
+                                <input type="password" placeholder="Password"
+                                    class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600">
+                    </div>
+                    <div class="flex items-baseline justify-between">
+                        <button class="px-6 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-900">Login</button>
+                        <a href="#" class="text-sm text-blue-600 hover:underline">Forgot password?</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    
+
       <footer class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
